@@ -52,7 +52,7 @@ Add the following to your *build.gradle* plugin configuration block:
 build.gradle
 ```groovy
 plugins {
-    id("jooq-modelator-plugin") version "1.0.0-SNAPSHOT"
+    id("jooq-modelator-plugin") version "1.0.17"
 }
 ```
 
@@ -60,9 +60,6 @@ plugins {
 ```groovy
 pluginManagement {
     repositories {
-        maven {
-            url 'https://nexus.i-neb.net/repository/maven-snapshots/'
-        }
         maven {
             url 'https://nexus.i-neb.net/repository/maven-releases/'
         }
@@ -76,16 +73,13 @@ pluginManagement {
 build.gradle.kts
 ```groovy
 plugins {
-    id("jooq-modelator-plugin") version "1.0.1"
+    id("jooq-modelator-plugin") version "1.0.17"
 }
 ```
 settings.gradle.kts
 ```groovy
 pluginManagement {
     repositories {
-        maven {
-            url = uri("https://nexus.i-neb.net/repository/maven-snapshots/")
-        }
         maven {
             url = uri("https://nexus.i-neb.net/repository/maven-releases/")
         }
