@@ -1,8 +1,8 @@
 Jooq-Modelator
 ==============
 
-[![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/ayedo/jooq-modelator/master/LICENSE) 
-[![Build Status](https://teamcity.i-neb.net/app/rest/builds/buildType:(id:JooqModelator_Build)/statusIcon)](https://teamcity.i-neb.net/viewType.html?buildTypeId=JooqModelator_Build&guest=1)
+[![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/ayedo/jooq-modelator/master/LICENSE)
+![Build status](https://github.com/dim777/jooq-modelator/actions/workflows/check.yml/badge.svg)
 
 ## Overview
 
